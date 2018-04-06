@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="556.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kinobuchungssytem.ReservationAbschliessenGuiController">
+   <children>
+      <Label fx:id="leinwandLabel" alignment="CENTER" layoutX="207.0" layoutY="14.0" prefHeight="30.0" prefWidth="402.0" text="Reservation abschliessen">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="75.0" text="Film">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="150.0" text="Saal">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="225.0" text="Zeit">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="300.0" text="Plätze">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="375.0" text="Preis pro Ticket">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="450.0" text="Preis gesamt">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="filmLabel" layoutX="300.0" layoutY="75.0" text="Label" />
+      <Label fx:id="saalLabel" layoutX="300.0" layoutY="150.0" text="Label" />
+      <Label fx:id="zeitLabel" layoutX="300.0" layoutY="225.0" text="Label" />
+      <Label fx:id="preisGLabel" layoutX="300.0" layoutY="450.0" text="Label" />
+      <Label fx:id="preisPTLabel" layoutX="300.0" layoutY="375.0" text="Label" />
+      <Label fx:id="plätzeLabel" layoutX="300.0" layoutY="300.0" text="Label" />
+      <Button layoutX="711.0" layoutY="511.0" mnemonicParsing="false" onAction="#bestätigen" text="Bestätigen" />
+      <Label fx:id="name" layoutX="711.0" layoutY="75.0" text="Label" />
+      <Button layoutX="16.0" layoutY="511.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <Label fx:id="meldung" layoutX="300.0" layoutY="516.0" />
+      <MenuButton fx:id="personDetails" layoutX="678.0" layoutY="14.0" mnemonicParsing="false" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#showDetails" text="Details" />
+         </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

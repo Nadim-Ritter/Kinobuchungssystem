@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="556.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kinobuchungssytem.GuiAuswahlController">
+   <children>
+      <Label alignment="CENTER" layoutX="312.0" layoutY="14.0" prefHeight="36.0" prefWidth="191.0" text="Filmauswahl" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ScrollPane fx:id="sp" layoutX="14.0" layoutY="50.0" prefHeight="491.0" prefWidth="787.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <MenuButton fx:id="personDetails" layoutX="678.0" layoutY="14.0" mnemonicParsing="false" text="MenuButton">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#showDetails" text="Details" />
+        </items>
+      </MenuButton>
+<!--      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cae0f5" height="120.0" layoutX="14.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="134.0" layoutY="50.0" stroke="BLACK" strokeType="INSIDE" width="666.0" />
+      <Label layoutX="37.0" layoutY="96.0" text="Bild Film">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="384.0" layoutY="96.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="704.0" layoutY="96.0" mnemonicParsing="false" text="Übersicht" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="135.0" layoutY="170.0" stroke="BLACK" strokeType="INSIDE" width="666.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cae0f5" height="120.0" layoutX="15.0" layoutY="170.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="135.0" layoutY="290.0" stroke="BLACK" strokeType="INSIDE" width="666.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cae0f5" height="120.0" layoutX="15.0" layoutY="290.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="120.0" layoutX="135.0" layoutY="410.0" stroke="BLACK" strokeType="INSIDE" width="666.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#cae0f5" height="120.0" layoutX="15.0" layoutY="410.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Label layoutX="37.0" layoutY="215.0" text="Bild Film">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="335.0" text="Bild Film">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="455.0" text="Bild Film">
+         <font>
+            <Font size="20.0" />
+         </font>    
+      </Label>
+      <Label layoutX="384.0" layoutY="215.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="335.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="381.0" layoutY="470.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="704.0" layoutY="215.0" mnemonicParsing="false" text="Übersicht" />
+      <Button layoutX="704.0" layoutY="335.0" mnemonicParsing="false" text="Übersicht" />
+      <Button layoutX="704.0" layoutY="455.0" mnemonicParsing="false" text="Übersicht" />-->
+   </children>
+</AnchorPane>

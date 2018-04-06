@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Kinobuchungssytem.jnlp">
+  <information>
+    <title>Kinobuchungssytem</title>
+    <vendor>NadimRitter</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Kinobuchungssytem.jar" size="28870" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Kinobuchungssytem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="kinobuchungssytem.Kinobuchungssytem"  name="Kinobuchungssytem" />
+  <update check="always"/>
+</jnlp>

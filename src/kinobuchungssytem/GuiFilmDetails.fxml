@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="556.0" prefWidth="815.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kinobuchungssytem.GuiFilmDetailsController">
+   <children>
+      <Button layoutX="14.0" layoutY="511.0" mnemonicParsing="false" onAction="#back" text="back" />
+      <VBox fx:id="trailerBox" layoutX="509.0" layoutY="57.0" prefHeight="215.0" prefWidth="292.0" style="-fx-border-color: black;">
+         <children>
+            <Label text="Trailer" />
+         </children>
+      </VBox>
+      <Label fx:id="titelFilmName" layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="486.0" text="Film Name">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="vorstellungenTitel" layoutX="14.0" layoutY="101.0" text="Vorstellungen">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <MenuButton fx:id="personDetails" layoutX="678.0" layoutY="14.0" mnemonicParsing="false" text="MenuButton">
+         <items>
+            <MenuItem mnemonicParsing="false" onAction="#showDetails" text="Details" />
+         </items>
+      </MenuButton>
+   </children>
+</AnchorPane>
